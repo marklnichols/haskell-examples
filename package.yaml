@@ -1,0 +1,31 @@
+name:                haskell-examples
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            
+license:             BSD3
+author:              Mark Nichols
+maintainer:          marklnichols@gmail.com
+copyright:           2017 Mark Nichols
+extra-source-files:
+- README.md
+
+dependencies:
+  - base
+
+library:
+  source-dirs:
+  - src
+  ghc-options: -Wall
+  exposed-modules:
+  - Primes
+  - Fibonacci
+
+executables:
+  haskell-examples-exe:
+    main: Main.hs
+    source-dirs:
+    - src
+    - main
+    ghc-options:
+    - -Wall
