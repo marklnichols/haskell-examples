@@ -12,6 +12,8 @@ extra-source-files:
 
 dependencies:
   - base
+  - extra
+  - safe
 
 library:
   source-dirs:
@@ -20,6 +22,11 @@ library:
   exposed-modules:
   - Primes
   - Fibonacci
+  - ProjectEuler.Problem1
+  - ProjectEuler.Problem2
+  - ProjectEuler.Problem3
+  - ProjectEuler.Problem4
+  - ProjectEuler.Problem5
 
 executables:
   haskell-examples-exe:

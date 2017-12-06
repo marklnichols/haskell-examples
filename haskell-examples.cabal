@@ -21,9 +21,16 @@ library
   ghc-options: -Wall
   build-depends:
       base
+    , extra
+    , safe
   exposed-modules:
       Primes
       Fibonacci
+      ProjectEuler.Problem1
+      ProjectEuler.Problem2
+      ProjectEuler.Problem3
+      ProjectEuler.Problem4
+      ProjectEuler.Problem5
   other-modules:
       Paths_haskell_examples
   default-language: Haskell2010
@@ -36,7 +43,14 @@ executable haskell-examples-exe
   ghc-options: -Wall
   build-depends:
       base
+    , extra
+    , safe
   other-modules:
       Fibonacci
       Primes
+      ProjectEuler.Problem1
+      ProjectEuler.Problem2
+      ProjectEuler.Problem3
+      ProjectEuler.Problem4
+      ProjectEuler.Problem5
   default-language: Haskell2010
