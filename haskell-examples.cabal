@@ -24,6 +24,7 @@ library
     , extra
     , safe
   exposed-modules:
+      Misc
       Primes
       Fibonacci
       ProjectEuler.Problem1
@@ -31,6 +32,11 @@ library
       ProjectEuler.Problem3
       ProjectEuler.Problem4
       ProjectEuler.Problem5
+      ProjectEuler.Problem6
+      ProjectEuler.Problem7
+      ProjectEuler.Problem8
+      ProjectEuler.Problem9
+      ProjectEuler.Problem10
   other-modules:
       Paths_haskell_examples
   default-language: Haskell2010
@@ -47,10 +53,16 @@ executable haskell-examples-exe
     , safe
   other-modules:
       Fibonacci
+      Misc
       Primes
       ProjectEuler.Problem1
+      ProjectEuler.Problem10
       ProjectEuler.Problem2
       ProjectEuler.Problem3
       ProjectEuler.Problem4
       ProjectEuler.Problem5
+      ProjectEuler.Problem6
+      ProjectEuler.Problem7
+      ProjectEuler.Problem8
+      ProjectEuler.Problem9
   default-language: Haskell2010
