@@ -2,7 +2,7 @@ module Main where
 
 import Fibonacci
 import Primes
-import ProjectEuler.Problem5
+import ProjectEuler.Problem10
 import System.Time.Extra
 
 main :: IO ()
@@ -15,9 +15,9 @@ main = do
     let fs = take 20 fibs
     print fs
 
-    putStrLn "Running current Project Euler problem: #5..."
+    putStrLn "Running current Project Euler problem: #10..."
     (sec, ans) <- duration $
-        return $ smallestDivAll 20
+        return $ sumOfPrimesBelow 2000000
     putStrLn $ "Answer: " ++ show ans
     putStrLn $ "Total time: " ++ showDuration sec ++ " seconds"
     return ()

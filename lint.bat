@@ -1,3 +1,4 @@
+hlint src\Misc.hs
 hlint src\Primes.hs
 hlint src\Fibonacci.hs
 hlint src\ProjectEuler\Problem1.hs
@@ -5,3 +6,8 @@ hlint src\ProjectEuler\Problem2.hs
 hlint src\ProjectEuler\Problem3.hs
 hlint src\ProjectEuler\Problem4.hs
 hlint src\ProjectEuler\Problem5.hs
+hlint src\ProjectEuler\Problem6.hs
+hlint src\ProjectEuler\Problem7.hs
+hlint src\ProjectEuler\Problem8.hs
+hlint src\ProjectEuler\Problem9.hs
+hlint src\ProjectEuler\Problem10.hs
